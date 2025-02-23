@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* Elementry selector */
+
+      /* div {
+        color: black;
+        background-color: red;
+      } */
+
+      /* Class selectors */
+      .clas {
+        background-color: chartreuse;
+      }
+
+      /* id selectors */
+      #ad {
+        background-color: blue;
+      }
+
+      /* child selector */
+      div > p {
+        background-color: aqua;
+      }
+
+      /* descendant selectors */
+
+      div p {
+        background-color: aqua;
+      }
+
+      /* universal selector  */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* pseudo selector  */
+
+      a:visited {
+        color: green;
+      }
+      a:link {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clas">
+      I am div
+      <span>
+        <p>I am para</p>
+      </span>
+    </div>
+
+    <div id="ad">I am another div</div>
+    <a href="http://www.google.com">Go to Google</a>
+    <a href="http://www.facebook.com">Go to Facebook</a>
+  </body>
+</html>
